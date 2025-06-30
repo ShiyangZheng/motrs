@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "@samhammer/vue-cli-plugin-stylelint": "5.x",
-    "@vue/cli-plugin-eslint": "5.x"
+    "@vue/cli-plugin-eslint": "5.x",
+    "stylelint": "^16.21.0"
   },
   "engines": {
     "node": "14.x || 16.x || 18.x || 20.x",
