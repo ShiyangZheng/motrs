@@ -69,4 +69,4 @@ jobs:
           branch: gh-pages
           folder: ${{ matrix.folder }}/dist
           target-folder: ${{ matrix.folder }}
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }} 
