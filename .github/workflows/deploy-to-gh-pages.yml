@@ -59,7 +59,7 @@ jobs:
       - name: Create branch
         uses: peterjgrainger/action-create-branch@v3.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           branch: gh-pages
 
@@ -69,4 +69,4 @@ jobs:
           branch: gh-pages
           folder: ${{ matrix.folder }}/dist
           target-folder: ${{ matrix.folder }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT }}
